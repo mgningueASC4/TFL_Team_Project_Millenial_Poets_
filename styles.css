@@ -6,8 +6,23 @@
   
 }
 
+.bg-light{
+    background-color: rgb(61, 59, 62) !important;
+}
 
+.navbar-light .navbar-brand .navbar-nav .nav-link .nav-item .navbar-toggler{
+    color: white !important;
+    /*font-family: Josefin Sans !important;*/
+}
+a.nav-link {
+    color:white !important;
+    font-family: Josefin Sans !important;
+}
 
+a.navbar-brand{
+    color: white !important;
+    font-family: Josefin Sans !important;
+}
 .partner-logos{
     
     
@@ -30,6 +45,8 @@
 }
 
 .hero-text {
+    font-family: Josefin Sans;
+    font-weight: 300;
     font-size: 150px;
     text-align: center;
     position: absolute;
@@ -37,26 +54,60 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-   font-family: Arial, Helvetica, sans-serif;
+    /*font-family: Arial, Helvetica, sans-serif;*/
 
 
 }
 
+.subtitles{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
 
+.sampTitle{
+    font-family: 'Raleway', sans-serif;
+}
+.poem{
+    font-family: 'Kalam', cursive;
+}
+
+.quoteFoot{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-style: italic;
+}
+
+.samples #sampls{
+    margin-top: 20px;
+}
+.container{
+    margin-top: 40px;
+}
+.poetTot{
+    background-color: beige;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
 
 about {
     padding-top: 50px !important;
 }
 
-
+#aboutP{
+    font-family: 'Open Sans', sans-serif;
+}
 
 #about p{
         margin: 25px 200px 75px 200px;
 }
 
+h2{
+    font-family: 'Open Sans', sans-serif;
+}
 
 p {
-    font-size: 20px;
+    font-size: 20px;an
 }
 
 #footer {
@@ -243,4 +294,74 @@ body {
 .fade-in {
     opacity: 0;
     transition: none;
+}
+
+h8 {
+    font-size: 50px;
+}
+
+h4 {
+    font-size: 50px;
+}
+
+h11 {
+    font-size: 40px;
+}
+
+h19 {
+    font-size: 40px;
+}
+.footer{background-color:rgb(61, 59, 62);
+       font-color:white;
+}
+
+.footerInfo{
+    font-family:Josefin Sans;
+    color: white
+    
+}
+
+.service-image {
+    float: right;
+    padding-left:20px;
+}
+#sign{
+    background-color: grey; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius:10px;
+}
+
+.signupimage{
+    float: right;
+    padding-right:100px;
+}
+
+.mission{
+    color:white;
+}
+
+.icoN{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.info{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.btn-primary{
+    background-color: rgb(61,59, 62);
+}
+
+.button{
+     background-color: rgb(61,59, 62);
 }
